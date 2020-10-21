@@ -92,14 +92,12 @@ img {
 
   #lezioni .row>.left,
   #lezioni .row>.right {
-    float: none;
     width: 100%;
   }
 
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
-    float: left;
     width: 100%;
   }
 

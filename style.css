@@ -80,10 +80,14 @@ img {
 
 @media screen and (max-width:420px) {
 
+  body{
+    font-size: 12px;
+  }
+
   .row {
     width: 100%;
     margin-top: 0;
-    padding: 5px;
+    padding: 10px;
     }
 
   #lezioni .row>.left,
@@ -110,6 +114,12 @@ img {
 
   #lezioni, #why{
     background-color: #f2f2cd;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 10px;
   }
 
 }

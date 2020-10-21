@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .row {
   width: 992px;
   margin-left: auto;
@@ -70,4 +76,40 @@ img {
 
 .clear {
   clear: both;
+}
+
+@media screen and (max-width:420px) {
+
+  .row {
+    width: 100%;
+    margin-top: 0;
+    padding: 5px;
+    }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    float: none;
+    width: 100%;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: left;
+    width: 100%;
+  }
+
+  img {
+    height: 100px;
+    margin: 10px;
+  }
+
+  .container.grey {
+    background-color: white;
+  }
+
+  #lezioni, #why{
+    background-color: #f2f2cd;
+  }
+
 }
